@@ -1,0 +1,133 @@
+
+part b
+
+1.
+for sampleA, it is using
+
+parallelization because it opens 6 tcp connection to the same host with same port number 
+
+HTTP/1.1 because it is shown in the application data
+
+persistent because it is using single TCP connection to send and receive multiple HTTP requests/response
+
+for sampleB, it is using
+
+ 
+
+HTTP/2.0 because it is using server push
+
+persistent because it is using single TCP connection to send and receive multiple HTTP requests/response
+
+
+2.
+
+way to find congestion window:
+
+
+If SMSS > 2190 bytes:
+IW = 2 * SMSS bytes and MUST NOT be more than 2 segments
+If (SMSS > 1095 bytes) and (SMSS <= 2190 bytes):
+IW = 3 * SMSS bytes and MUST NOT be more than 3 segments
+If SMSS <= 1095 bytes:
+IW = 4 * SMSS bytes and MUST NOT be more than 4 segments
+
+
+
+way to find rtt: 
+To find rrt, first we need to find the sending data and its matched ack. I use the following rule to do the match:
+If the ack number of ack packet is equal to the sequence number plus the length of the sending data, then i consider them as a pair.
+
+
+And then I use the difference bewteen these two timestamps in the Record  Header (not the tcp header) to find the rtt.
+The reason is that this timestamp means the time when the packet is captured. For example, when the server send out the packet, the timing will be captured and saved into the Record Header.
+And the ack packet comes back, the timing will also be captured. So i think it make sense to get the difference between this two timestamp to get the rtt.
+
+
+
+Way to find throughput and goodput:
+throughput is the total amount of bytes transferred per flow over time and goodput is the total amount of useful byte transferred per flow over time
+
+For the goodput, i consider only the application data,which means i dont consider the retransimission and the header.
+
+Here i calculate the time by getting the time difference between the first packet in the flow and the last packet in the flow.
+Also i find out the retransmission packet by the following rule:
+If packet is transferred from server and have the same sequence number with previous one, i consider it as a retransmission and then ignore it when calculating gooput.
+
+
+Below is the sample output from the code partb.java which contains throughput,goodputaverage round trip time,the initial congestion window size for each flow
+
+
+notice: the rrt is with respect to server side ( 128.208.2.180  port: 80)
+
+HTTP_SampleA.pcap
+
+flow from  128.208.4.212  port: 53026 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 0:  throuhput:  : 1912.074075892472 byte per second
+flow 0:  goodput:  : 1036.3149571630954 byte per second
+flow 0:  avg_rtt:   203.728515625 millisecond
+
+
+
+flow from  128.208.4.212  port: 53027 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 1:  throuhput:  : 2291.416913163056 byte per second
+flow 1:  goodput:  : 1433.5104208748082 byte per second
+flow 1:  avg_rtt:   204.40093994140625 millisecond
+
+
+
+flow from  128.208.4.212  port: 53028 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 2:  throuhput:  : 762.4805045158157 byte per second
+flow 2:  goodput:  : 413.25279252383905 byte per second
+flow 2:  avg_rtt:   201.35302734375 millisecond
+
+
+
+flow from  128.208.4.212  port: 53029 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 3:  throuhput:  : 1912.1921860089408 byte per second
+flow 3:  goodput:  : 1036.3789710430137 byte per second
+flow 3:  avg_rtt:   203.6771240234375 millisecond
+
+
+
+flow from  128.208.4.212  port: 53030 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 4:  throuhput:  : 1912.1664428169586 byte per second
+flow 4:  goodput:  : 1036.3650186259852 byte per second
+flow 4:  avg_rtt:   203.6783447265625 millisecond
+
+
+
+flow from  128.208.4.212  port: 53031 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 5:  throuhput:  : 1626.4971495289421 byte per second
+flow 5:  goodput:  : 1101.9101849197782 byte per second
+flow 5:  avg_rtt:   203.2039794921875 millisecond
+
+
+HTTP_SampleB.pcap
+
+number of packets:   36
+flow from  128.208.4.212  port: 56192 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 0:  throuhput:  : 5838.556612830622 byte per second
+flow 0:  goodput:  : 3943.073303655149 byte per second
+flow 0:  avg_rtt:   202.45643833705358 millisecond
+
+
+
+
+
+
+
+

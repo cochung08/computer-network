@@ -1,0 +1,6 @@
+(a) link r1 r3 down
+
+(b) time for connectivity to be establised: 12s.
+first I log into h1, start pinging to h2. Then break down the link from r1 and r3, then the ping failed and then 12 consecutive destination host unreachable until h1 connects to h2 again.
+
+Since the time for each destination host unreachavle is 1s, therefore  time for connectivity to be establised is 12s.

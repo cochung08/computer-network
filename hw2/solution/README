@@ -1,0 +1,10 @@
+the high level view of my design.
+
+I didnt use any lbirary to do the parse. I just parse it byte by byte in java.
+
+There are separate report in each indivual folder (parta,partb,partc). PLease check the high level view over there.
+
+
+HOW TO RUN:
+
+in each code folder, there is a text file called "how to run". You can figure out how to run over there.

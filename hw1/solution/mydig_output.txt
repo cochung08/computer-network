@@ -1,0 +1,1593 @@
+output for type a:
+
+
+digging  Google.com  tpye:  a
+
+choose root server :  192.5.5.241
+
+QUERY 1, ANSWER 8, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Google.com IN A
+
+;; ANSWER SECTION:
+Google.com. 300 IN A 70.186.30.24
+Google.com. 300 IN A 70.186.30.23
+Google.com. 300 IN A 70.186.30.21
+Google.com. 300 IN A 70.186.30.20
+Google.com. 300 IN A 70.186.30.26
+Google.com. 300 IN A 70.186.30.22
+Google.com. 300 IN A 70.186.30.25
+Google.com. 300 IN A 70.186.30.27
+
+
+
+;; Query time: 224 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:38 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Facebook.com  tpye:  a
+
+choose root server :  192.112.36.4
+
+QUERY 1, ANSWER 1, AUTHORITY:  2 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Facebook.com IN A
+
+;; ANSWER SECTION:
+Facebook.com. 300 IN A 66.220.156.68
+
+
+
+;; Query time: 162 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:38 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Youtube.com  tpye:  a
+
+choose root server :  198.97.190.53
+
+QUERY 1, ANSWER 8, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Youtube.com IN A
+
+;; ANSWER SECTION:
+Youtube.com. 300 IN A 70.186.30.24
+Youtube.com. 300 IN A 70.186.30.27
+Youtube.com. 300 IN A 70.186.30.22
+Youtube.com. 300 IN A 70.186.30.21
+Youtube.com. 300 IN A 70.186.30.20
+Youtube.com. 300 IN A 70.186.30.26
+Youtube.com. 300 IN A 70.186.30.23
+Youtube.com. 300 IN A 70.186.30.25
+
+
+
+;; Query time: 141 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:38 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Amazon.com  tpye:  a
+
+choose root server :  192.36.148.17
+
+QUERY 1, ANSWER 6, AUTHORITY:  6 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Amazon.com IN A
+
+;; ANSWER SECTION:
+amazon.com. 60 IN A 54.239.25.208
+amazon.com. 60 IN A 54.239.25.192
+amazon.com. 60 IN A 54.239.17.6
+amazon.com. 60 IN A 54.239.26.128
+amazon.com. 60 IN A 54.239.17.7
+amazon.com. 60 IN A 54.239.25.200
+
+
+
+;; Query time: 154 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:38 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Wikipedia.org  tpye:  a
+
+choose root server :  192.58.128.30
+
+QUERY 1, ANSWER 1, AUTHORITY:  0 , ADDITIONAL:  1    
+;; QUESTION SECTION:
+; Wikipedia.org IN A
+
+;; ANSWER SECTION:
+Wikipedia.org. 600 IN A 208.80.154.224
+
+
+
+;; Query time: 365 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:39 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yahoo.com  tpye:  a
+
+choose root server :  193.0.14.129
+
+QUERY 1, ANSWER 3, AUTHORITY:  6 , ADDITIONAL:  10    
+;; QUESTION SECTION:
+; Yahoo.com IN A
+
+;; ANSWER SECTION:
+yahoo.com. 1800 IN A 98.138.253.109
+yahoo.com. 1800 IN A 206.190.36.45
+yahoo.com. 1800 IN A 98.139.183.24
+
+
+
+;; Query time: 221 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:39 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Twitter.com  tpye:  a
+
+choose root server :  199.7.83.42
+
+QUERY 1, ANSWER 4, AUTHORITY:  4 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Twitter.com IN A
+
+;; ANSWER SECTION:
+Twitter.com. 30 IN A 199.16.156.70
+Twitter.com. 30 IN A 199.16.156.38
+Twitter.com. 30 IN A 199.16.156.6
+Twitter.com. 30 IN A 199.16.156.230
+
+
+
+;; Query time: 358 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:39 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Live.com  tpye:  a
+
+choose root server :  202.12.27.33
+
+QUERY 1, ANSWER 1, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Live.com IN A
+
+;; ANSWER SECTION:
+Live.com. 3600 IN A 65.55.206.154
+
+
+
+;; Query time: 337 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:40 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Msn.com  tpye:  a
+
+choose root server :  198.41.0.4
+
+QUERY 1, ANSWER 1, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Msn.com IN A
+
+;; ANSWER SECTION:
+Msn.com. 900 IN A 23.101.196.141
+
+
+
+;; Query time: 397 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:40 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.co.jp  tpye:  a
+
+choose root server :  192.228.79.201
+
+QUERY 1, ANSWER 8, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Google.co.jp IN A
+
+;; ANSWER SECTION:
+Google.co.jp. 300 IN A 70.186.28.24
+Google.co.jp. 300 IN A 70.186.28.23
+Google.co.jp. 300 IN A 70.186.28.20
+Google.co.jp. 300 IN A 70.186.28.22
+Google.co.jp. 300 IN A 70.186.28.21
+Google.co.jp. 300 IN A 70.186.28.26
+Google.co.jp. 300 IN A 70.186.28.27
+Google.co.jp. 300 IN A 70.186.28.25
+
+
+
+;; Query time: 570 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:41 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.co.in  tpye:  a
+
+choose root server :  192.33.4.12
+
+QUERY 1, ANSWER 8, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Google.co.in IN A
+
+;; ANSWER SECTION:
+Google.co.in. 300 IN A 70.186.30.22
+Google.co.in. 300 IN A 70.186.30.25
+Google.co.in. 300 IN A 70.186.30.20
+Google.co.in. 300 IN A 70.186.30.23
+Google.co.in. 300 IN A 70.186.30.21
+Google.co.in. 300 IN A 70.186.30.27
+Google.co.in. 300 IN A 70.186.30.26
+Google.co.in. 300 IN A 70.186.30.24
+
+
+
+;; Query time: 429 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:41 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yahoo.co.jp  tpye:  a
+
+choose root server :  199.7.91.13
+
+QUERY 1, ANSWER 2, AUTHORITY:  4 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Yahoo.co.jp IN A
+
+;; ANSWER SECTION:
+yahoo.co.jp. 300 IN A 182.22.59.229
+yahoo.co.jp. 300 IN A 183.79.135.206
+
+
+
+;; Query time: 441 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:42 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.de  tpye:  a
+
+choose root server :  192.203.230.10
+
+QUERY 1, ANSWER 8, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Google.de IN A
+
+;; ANSWER SECTION:
+Google.de. 300 IN A 70.186.30.24
+Google.de. 300 IN A 70.186.30.26
+Google.de. 300 IN A 70.186.30.23
+Google.de. 300 IN A 70.186.30.27
+Google.de. 300 IN A 70.186.30.25
+Google.de. 300 IN A 70.186.30.20
+Google.de. 300 IN A 70.186.30.21
+Google.de. 300 IN A 70.186.30.22
+
+
+
+;; Query time: 525 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:42 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Vk.com  tpye:  a
+
+choose root server :  192.5.5.241
+
+QUERY 1, ANSWER 3, AUTHORITY:  3 , ADDITIONAL:  6    
+;; QUESTION SECTION:
+; Vk.com IN A
+
+;; ANSWER SECTION:
+Vk.com. 900 IN A 87.240.143.241
+Vk.com. 900 IN A 87.240.131.117
+Vk.com. 900 IN A 87.240.131.118
+
+
+
+;; Query time: 782 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:43 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Linkedin.com  tpye:  a
+
+choose root server :  192.112.36.4
+
+QUERY 1, ANSWER 1, AUTHORITY:  8 , ADDITIONAL:  8    
+;; QUESTION SECTION:
+; Linkedin.com IN A
+
+;; ANSWER SECTION:
+linkedin.com. 300 IN A 108.174.5.129
+
+
+
+;; Query time: 147 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:44 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yandex.ru  tpye:  a
+
+choose root server :  198.97.190.53
+
+QUERY 1, ANSWER 4, AUTHORITY:  2 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Yandex.ru IN A
+
+;; ANSWER SECTION:
+yandex.ru. 300 IN A 77.88.55.66
+yandex.ru. 300 IN A 77.88.55.55
+yandex.ru. 300 IN A 5.255.255.5
+yandex.ru. 300 IN A 5.255.255.55
+
+
+
+;; Query time: 320 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:44 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Ebay.com  tpye:  a
+
+choose root server :  192.36.148.17
+
+QUERY 1, ANSWER 6, AUTHORITY:  8 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Ebay.com IN A
+
+;; ANSWER SECTION:
+Ebay.com. 3600 IN A 66.135.209.52
+Ebay.com. 3600 IN A 66.211.181.123
+Ebay.com. 3600 IN A 66.211.160.86
+Ebay.com. 3600 IN A 66.135.216.190
+Ebay.com. 3600 IN A 66.211.185.25
+Ebay.com. 3600 IN A 66.211.162.12
+
+
+
+;; Query time: 198 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:44 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Instagram.com  tpye:  a
+
+choose root server :  192.58.128.30
+
+QUERY 1, ANSWER 8, AUTHORITY:  4 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Instagram.com IN A
+
+;; ANSWER SECTION:
+Instagram.com. 60 IN A 107.21.33.28
+Instagram.com. 60 IN A 52.2.250.41
+Instagram.com. 60 IN A 52.2.253.233
+Instagram.com. 60 IN A 54.152.56.115
+Instagram.com. 60 IN A 54.175.1.67
+Instagram.com. 60 IN A 54.209.247.221
+Instagram.com. 60 IN A 54.209.139.165
+Instagram.com. 60 IN A 54.175.51.62
+
+
+
+;; Query time: 223 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:33:44 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+output for type ns:
+
+
+
+digging  Google.com  tpye:  ns
+
+choose root server :  193.0.14.129
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Google.com IN NS
+
+;; ANSWER SECTION:
+Google.com. 172800 IN NS ns2.Google.com.
+Google.com. 172800 IN NS ns1.Google.com.
+Google.com. 172800 IN NS ns3.Google.com.
+Google.com. 172800 IN NS ns4.Google.com.
+;; Query time: 191 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:34 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Facebook.com  tpye:  ns
+
+choose root server :  199.7.83.42
+
+QUERY 1, ANSWER 0, AUTHORITY:  2 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Facebook.com IN NS
+
+;; ANSWER SECTION:
+Facebook.com. 172800 IN NS a.ns.Facebook.com.
+Facebook.com. 172800 IN NS b.ns.Facebook.com.
+;; Query time: 334 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:34 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Youtube.com  tpye:  ns
+
+choose root server :  202.12.27.33
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Youtube.com IN NS
+
+;; ANSWER SECTION:
+Youtube.com. 172800 IN NS ns2.google.com.
+Youtube.com. 172800 IN NS ns1.google.com.
+Youtube.com. 172800 IN NS ns3.google.com.
+Youtube.com. 172800 IN NS ns4.google.com.
+;; Query time: 284 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:34 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Amazon.com  tpye:  ns
+
+choose root server :  198.41.0.4
+
+QUERY 1, ANSWER 0, AUTHORITY:  6 , ADDITIONAL:  6    
+;; QUESTION SECTION:
+; Amazon.com IN NS
+
+;; ANSWER SECTION:
+Amazon.com. 172800 IN NS pdns1.ultradns.net.
+Amazon.com. 172800 IN NS pdns6.ultradns.co.uk.
+Amazon.com. 172800 IN NS ns1.p31.dynect.net.
+Amazon.com. 172800 IN NS ns3.p31.dynect.net.
+Amazon.com. 172800 IN NS ns2.p31.dynect.net.
+Amazon.com. 172800 IN NS ns4.p31.dynect.net.
+;; Query time: 325 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:35 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Wikipedia.org  tpye:  ns
+
+choose root server :  192.228.79.201
+
+QUERY 1, ANSWER 0, AUTHORITY:  3 , ADDITIONAL:  3    
+;; QUESTION SECTION:
+; Wikipedia.org IN NS
+
+;; ANSWER SECTION:
+wikipedia.org. 86400 IN NS ns0.wikimedia.org.
+wikipedia.org. 86400 IN NS ns2.wikimedia.org.
+wikipedia.org. 86400 IN NS ns1.wikimedia.org.
+;; Query time: 325 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:35 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yahoo.com  tpye:  ns
+
+choose root server :  192.33.4.12
+
+QUERY 1, ANSWER 0, AUTHORITY:  5 , ADDITIONAL:  8    
+;; QUESTION SECTION:
+; Yahoo.com IN NS
+
+;; ANSWER SECTION:
+Yahoo.com. 172800 IN NS ns1.Yahoo.com.
+Yahoo.com. 172800 IN NS ns5.Yahoo.com.
+Yahoo.com. 172800 IN NS ns2.Yahoo.com.
+Yahoo.com. 172800 IN NS ns3.Yahoo.com.
+Yahoo.com. 172800 IN NS ns4.Yahoo.com.
+;; Query time: 95 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:35 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Twitter.com  tpye:  ns
+
+choose root server :  199.7.91.13
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Twitter.com IN NS
+
+;; ANSWER SECTION:
+Twitter.com. 172800 IN NS ns1.p34.dynect.net.
+Twitter.com. 172800 IN NS ns2.p34.dynect.net.
+Twitter.com. 172800 IN NS ns3.p34.dynect.net.
+Twitter.com. 172800 IN NS ns4.p34.dynect.net.
+;; Query time: 93 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:35 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Live.com  tpye:  ns
+
+choose root server :  192.203.230.10
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  8    
+;; QUESTION SECTION:
+; Live.com IN NS
+
+;; ANSWER SECTION:
+Live.com. 172800 IN NS ns3.msft.net.
+Live.com. 172800 IN NS ns1.msft.net.
+Live.com. 172800 IN NS ns2.msft.net.
+Live.com. 172800 IN NS ns4.msft.net.
+;; Query time: 169 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:36 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Msn.com  tpye:  ns
+
+choose root server :  192.5.5.241
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  8    
+;; QUESTION SECTION:
+; Msn.com IN NS
+
+;; ANSWER SECTION:
+Msn.com. 172800 IN NS ns3.msft.net.
+Msn.com. 172800 IN NS ns1.msft.net.
+Msn.com. 172800 IN NS ns2.msft.net.
+Msn.com. 172800 IN NS ns4.msft.net.
+;; Query time: 176 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:36 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.co.jp  tpye:  ns
+
+choose root server :  192.112.36.4
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Google.co.jp IN NS
+
+;; ANSWER SECTION:
+google.co.jp. 86400 IN NS ns2.google.com.
+google.co.jp. 86400 IN NS ns4.google.com.
+google.co.jp. 86400 IN NS ns3.google.com.
+google.co.jp. 86400 IN NS ns1.google.com.
+;; Query time: 260 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:36 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.co.in  tpye:  ns
+
+choose root server :  198.97.190.53
+
+QUERY 1, ANSWER 0, AUTHORITY:  3 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Google.co.in IN NS
+
+;; ANSWER SECTION:
+google.co.in. 86400 IN NS ns2.google.com.
+google.co.in. 86400 IN NS ns1.google.com.
+google.co.in. 86400 IN NS ns3.google.com.
+;; Query time: 249 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:36 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yahoo.co.jp  tpye:  ns
+
+choose root server :  192.36.148.17
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Yahoo.co.jp IN NS
+
+;; ANSWER SECTION:
+yahoo.co.jp. 86400 IN NS ns02.yahoo.co.jp.
+yahoo.co.jp. 86400 IN NS ns12.yahoo.co.jp.
+yahoo.co.jp. 86400 IN NS ns01.yahoo.co.jp.
+yahoo.co.jp. 86400 IN NS ns11.yahoo.co.jp.
+;; Query time: 254 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:37 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.de  tpye:  ns
+
+choose root server :  192.58.128.30
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Google.de IN NS
+
+;; ANSWER SECTION:
+google.de. 86400 IN NS ns2.google.com.
+google.de. 86400 IN NS ns1.google.com.
+google.de. 86400 IN NS ns3.google.com.
+google.de. 86400 IN NS ns4.google.com.
+;; Query time: 266 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:37 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Vk.com  tpye:  ns
+
+choose root server :  193.0.14.129
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Vk.com IN NS
+
+;; ANSWER SECTION:
+Vk.com. 172800 IN NS ns1.vkontakte.ru.
+Vk.com. 172800 IN NS ns2.vkontakte.ru.
+Vk.com. 172800 IN NS ns3.vkontakte.ru.
+Vk.com. 172800 IN NS ns4.vkontakte.ru.
+;; Query time: 189 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:37 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Linkedin.com  tpye:  ns
+
+choose root server :  199.7.83.42
+
+QUERY 1, ANSWER 0, AUTHORITY:  8 , ADDITIONAL:  8    
+;; QUESTION SECTION:
+; Linkedin.com IN NS
+
+;; ANSWER SECTION:
+Linkedin.com. 172800 IN NS ns1.p43.dynect.net.
+Linkedin.com. 172800 IN NS ns2.p43.dynect.net.
+Linkedin.com. 172800 IN NS ns3.p43.dynect.net.
+Linkedin.com. 172800 IN NS ns4.p43.dynect.net.
+Linkedin.com. 172800 IN NS ns1.Linkedin.com.
+Linkedin.com. 172800 IN NS ns2.Linkedin.com.
+Linkedin.com. 172800 IN NS ns3.Linkedin.com.
+Linkedin.com. 172800 IN NS ns4.Linkedin.com.
+;; Query time: 329 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:38 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yandex.ru  tpye:  ns
+
+choose root server :  202.12.27.33
+
+QUERY 1, ANSWER 0, AUTHORITY:  2 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Yandex.ru IN NS
+
+;; ANSWER SECTION:
+YANDEX.RU. 345600 IN NS ns2.yandex.RU.
+YANDEX.RU. 345600 IN NS ns1.yandex.RU.
+;; Query time: 371 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:38 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Ebay.com  tpye:  ns
+
+choose root server :  198.41.0.4
+
+QUERY 1, ANSWER 0, AUTHORITY:  8 , ADDITIONAL:  8    
+;; QUESTION SECTION:
+; Ebay.com IN NS
+
+;; ANSWER SECTION:
+Ebay.com. 172800 IN NS sjc-dns1.ebaydns.com.
+Ebay.com. 172800 IN NS sjc-dns2.ebaydns.com.
+Ebay.com. 172800 IN NS smf-dns1.ebaydns.com.
+Ebay.com. 172800 IN NS smf-dns2.ebaydns.com.
+Ebay.com. 172800 IN NS ns1.p47.dynect.net.
+Ebay.com. 172800 IN NS ns2.p47.dynect.net.
+Ebay.com. 172800 IN NS ns3.p47.dynect.net.
+Ebay.com. 172800 IN NS ns4.p47.dynect.net.
+;; Query time: 315 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:38 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Instagram.com  tpye:  ns
+
+choose root server :  192.228.79.201
+
+QUERY 1, ANSWER 0, AUTHORITY:  4 , ADDITIONAL:  2    
+;; QUESTION SECTION:
+; Instagram.com IN NS
+
+;; ANSWER SECTION:
+Instagram.com. 172800 IN NS ns-430.awsdns-53.com.
+Instagram.com. 172800 IN NS ns-852.awsdns-42.net.
+Instagram.com. 172800 IN NS ns-1683.awsdns-18.co.uk.
+Instagram.com. 172800 IN NS ns-1144.awsdns-15.org.
+;; Query time: 179 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:39 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+output for type mx:
+
+digging  Google.com  tpye:  mx
+
+choose root server :  192.33.4.12
+
+QUERY 1, ANSWER 5, AUTHORITY:  0 , ADDITIONAL:  5    
+;; QUESTION SECTION:
+; Google.com IN MX
+
+;; ANSWER SECTION:
+Google.com. 600 IN MX 50 alt4.aspmx.l.Google.com.
+Google.com. 600 IN MX 20 alt1.aspmx.l.Google.com.
+Google.com. 600 IN MX 10 aspmx.l.Google.com.
+Google.com. 600 IN MX 30 alt2.aspmx.l.Google.com.
+Google.com. 600 IN MX 40 alt3.aspmx.l.Google.com.
+
+
+
+;; Query time: 277 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:47 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Facebook.com  tpye:  mx
+
+choose root server :  199.7.91.13
+
+QUERY 1, ANSWER 1, AUTHORITY:  2 , ADDITIONAL:  4    
+;; QUESTION SECTION:
+; Facebook.com IN MX
+
+;; ANSWER SECTION:
+Facebook.com. 300 IN MX 10 msgin.vvv.Facebook.com.
+
+
+
+;; Query time: 271 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:48 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Youtube.com  tpye:  mx
+
+choose root server :  192.203.230.10
+
+QUERY 1, ANSWER 5, AUTHORITY:  0 , ADDITIONAL:  5    
+;; QUESTION SECTION:
+; Youtube.com IN MX
+
+;; ANSWER SECTION:
+Youtube.com. 600 IN MX 50 alt4.aspmx.l.google.com.
+Youtube.com. 600 IN MX 40 alt3.aspmx.l.google.com.
+Youtube.com. 600 IN MX 30 alt2.aspmx.l.google.com.
+Youtube.com. 600 IN MX 10 aspmx.l.google.com.
+Youtube.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+
+
+
+;; Query time: 450 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:48 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Amazon.com  tpye:  mx
+
+choose root server :  192.5.5.241
+
+QUERY 1, ANSWER 1, AUTHORITY:  6 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Amazon.com IN MX
+
+;; ANSWER SECTION:
+amazon.com. 900 IN MX 5 amazon-smtp.amazon.com.
+
+
+
+;; Query time: 412 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:49 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Wikipedia.org  tpye:  mx
+
+choose root server :  192.112.36.4
+
+QUERY 1, ANSWER 2, AUTHORITY:  0 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Wikipedia.org IN MX
+
+;; ANSWER SECTION:
+Wikipedia.org. 3600 IN MX 10 mx1001.wikimedia.org.
+Wikipedia.org. 3600 IN MX 50 mx2001.wikimedia.org.
+
+
+
+;; Query time: 693 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:49 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yahoo.com  tpye:  mx
+
+choose root server :  198.97.190.53
+
+QUERY 1, ANSWER 3, AUTHORITY:  6 , ADDITIONAL:  10    
+;; QUESTION SECTION:
+; Yahoo.com IN MX
+
+;; ANSWER SECTION:
+yahoo.com. 1800 IN MX 1 mta5.am0.yahoodns.net.
+yahoo.com. 1800 IN MX 1 mta6.am0.yahoodns.net.
+yahoo.com. 1800 IN MX 1 mta7.am0.yahoodns.net.
+
+
+
+;; Query time: 278 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:50 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Twitter.com  tpye:  mx
+
+choose root server :  192.36.148.17
+
+QUERY 1, ANSWER 5, AUTHORITY:  4 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Twitter.com IN MX
+
+;; ANSWER SECTION:
+Twitter.com. 600 IN MX 30 ASPMX3.GOOGLEMAIL.COM.
+Twitter.com. 600 IN MX 20 alt2.aspmx.l.google.com.
+Twitter.com. 600 IN MX 30 ASPMX2.GOOGLEMAIL.COM.
+Twitter.com. 600 IN MX 20 alt1.aspmx.l.google.com.
+Twitter.com. 600 IN MX 10 aspmx.l.google.com.
+
+
+
+;; Query time: 295 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:50 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Live.com  tpye:  mx
+
+choose root server :  192.58.128.30
+
+QUERY 1, ANSWER 4, AUTHORITY:  0 , ADDITIONAL:  14    
+;; QUESTION SECTION:
+; Live.com IN MX
+
+;; ANSWER SECTION:
+Live.com. 3600 IN MX 5 mx4.hotmail.com.
+Live.com. 3600 IN MX 5 mx1.hotmail.com.
+Live.com. 3600 IN MX 5 mx2.hotmail.com.
+Live.com. 3600 IN MX 5 mx3.hotmail.com.
+
+
+
+;; Query time: 505 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:51 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Msn.com  tpye:  mx
+
+choose root server :  193.0.14.129
+
+QUERY 1, ANSWER 4, AUTHORITY:  0 , ADDITIONAL:  14    
+;; QUESTION SECTION:
+; Msn.com IN MX
+
+;; ANSWER SECTION:
+Msn.com. 900 IN MX 5 mx3.hotmail.com.
+Msn.com. 900 IN MX 5 mx1.hotmail.com.
+Msn.com. 900 IN MX 5 mx2.hotmail.com.
+Msn.com. 900 IN MX 5 mx4.hotmail.com.
+
+
+
+;; Query time: 519 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:51 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.co.jp  tpye:  mx
+
+choose root server :  199.7.83.42
+
+QUERY 1, ANSWER 5, AUTHORITY:  0 , ADDITIONAL:  5    
+;; QUESTION SECTION:
+; Google.co.jp IN MX
+
+;; ANSWER SECTION:
+Google.co.jp. 600 IN MX 20 alt1.aspmx.l.google.com.
+Google.co.jp. 600 IN MX 40 alt3.aspmx.l.google.com.
+Google.co.jp. 600 IN MX 10 aspmx.l.google.com.
+Google.co.jp. 600 IN MX 30 alt2.aspmx.l.google.com.
+Google.co.jp. 600 IN MX 50 alt4.aspmx.l.google.com.
+
+
+
+;; Query time: 861 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:52 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.co.in  tpye:  mx
+
+choose root server :  202.12.27.33
+
+QUERY 1, ANSWER 5, AUTHORITY:  0 , ADDITIONAL:  5    
+;; QUESTION SECTION:
+; Google.co.in IN MX
+
+;; ANSWER SECTION:
+Google.co.in. 600 IN MX 10 aspmx.l.google.com.
+Google.co.in. 600 IN MX 30 alt2.aspmx.l.google.com.
+Google.co.in. 600 IN MX 50 alt4.aspmx.l.google.com.
+Google.co.in. 600 IN MX 40 alt3.aspmx.l.google.com.
+Google.co.in. 600 IN MX 20 alt1.aspmx.l.google.com.
+
+
+
+;; Query time: 800 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:53 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yahoo.co.jp  tpye:  mx
+
+choose root server :  198.41.0.4
+
+QUERY 1, ANSWER 4, AUTHORITY:  4 , ADDITIONAL:  19    
+;; QUESTION SECTION:
+; Yahoo.co.jp IN MX
+
+;; ANSWER SECTION:
+yahoo.co.jp. 900 IN MX 10 mx3.mail.yahoo.co.jp.
+yahoo.co.jp. 900 IN MX 10 mx5.mail.yahoo.co.jp.
+yahoo.co.jp. 900 IN MX 10 mx1.mail.yahoo.co.jp.
+yahoo.co.jp. 900 IN MX 10 mx2.mail.yahoo.co.jp.
+
+
+
+;; Query time: 909 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:54 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Google.de  tpye:  mx
+
+choose root server :  192.228.79.201
+
+QUERY 1, ANSWER 5, AUTHORITY:  0 , ADDITIONAL:  5    
+;; QUESTION SECTION:
+; Google.de IN MX
+
+;; ANSWER SECTION:
+Google.de. 600 IN MX 40 alt3.aspmx.l.google.com.
+Google.de. 600 IN MX 10 aspmx.l.google.com.
+Google.de. 600 IN MX 30 alt2.aspmx.l.google.com.
+Google.de. 600 IN MX 50 alt4.aspmx.l.google.com.
+Google.de. 600 IN MX 20 alt1.aspmx.l.google.com.
+
+
+
+;; Query time: 508 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:55 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Vk.com  tpye:  mx
+
+choose root server :  192.33.4.12
+
+QUERY 1, ANSWER 1, AUTHORITY:  3 , ADDITIONAL:  7    
+;; QUESTION SECTION:
+; Vk.com IN MX
+
+;; ANSWER SECTION:
+Vk.com. 900 IN MX 10 mail.vk.com.
+
+
+
+;; Query time: 610 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:55 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Linkedin.com  tpye:  mx
+
+choose root server :  199.7.91.13
+
+QUERY 1, ANSWER 2, AUTHORITY:  8 , ADDITIONAL:  11    
+;; QUESTION SECTION:
+; Linkedin.com IN MX
+
+;; ANSWER SECTION:
+linkedin.com. 300 IN MX 10 mail.linkedin.com.
+linkedin.com. 300 IN MX 10 mail-c.linkedin.com.
+
+
+
+;; Query time: 269 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:55 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Yandex.ru  tpye:  mx
+
+choose root server :  192.203.230.10
+
+QUERY 1, ANSWER 1, AUTHORITY:  2 , ADDITIONAL:  10    
+;; QUESTION SECTION:
+; Yandex.ru IN MX
+
+;; ANSWER SECTION:
+yandex.ru. 3600 IN MX 10 mx.yandex.ru.
+
+
+
+;; Query time: 784 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:56 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Ebay.com  tpye:  mx
+
+choose root server :  192.5.5.241
+
+QUERY 1, ANSWER 3, AUTHORITY:  8 , ADDITIONAL:  3    
+;; QUESTION SECTION:
+; Ebay.com IN MX
+
+;; ANSWER SECTION:
+Ebay.com. 3600 IN MX 10 lore.Ebay.com.
+Ebay.com. 3600 IN MX 10 data.Ebay.com.
+Ebay.com. 3600 IN MX 10 gort.Ebay.com.
+
+
+
+;; Query time: 539 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:57 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+digging  Instagram.com  tpye:  mx
+
+choose root server :  192.112.36.4
+
+QUERY 1, ANSWER 2, AUTHORITY:  4 , ADDITIONAL:  0    
+;; QUESTION SECTION:
+; Instagram.com IN MX
+
+;; ANSWER SECTION:
+Instagram.com. 300 IN MX 10 mxa-00082601.gslb.pphosted.com.
+Instagram.com. 300 IN MX 10 mxb-00082601.gslb.pphosted.com.
+
+
+
+;; Query time: 333 msec 
+;; SERVER: 127.0.1.1 
+;; WHEN: 2016-02-17 14:35:57 
+
+
+_______________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

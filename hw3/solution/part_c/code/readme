@@ -1,0 +1,13 @@
+deploy the config file and MultiThreadServer.java on the six hosts
+then run the program in h1,r1,r2,r3,h2 first , then run the h4 in the end.
+
+
+How to run:
+javac MultiThreadServer.java
+java MultiThreadServer
+
+
+
+
+
+

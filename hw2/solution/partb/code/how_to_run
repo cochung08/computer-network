@@ -1,0 +1,6 @@
+part b (2)
+
+javac part_b.java
+java part_b HTTP_SampleA.pcap
+
+java part_b HTTP_SampleB.pcap

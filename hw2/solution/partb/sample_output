@@ -1,0 +1,70 @@
+
+notice: the rrt is with respect to server side ( 128.208.2.180  port: 80)
+
+
+number of packets:   67
+flow from  128.208.4.212  port: 53026 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 0:  throuhput:  : 1912.074075892472 byte per second
+flow 0:  goodput:  : 1036.3149571630954 byte per second
+flow 0:  avg_rtt:   203.728515625 millisecond
+
+HTTP_SampleA.pcap
+
+flow from  128.208.4.212  port: 53027 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 1:  throuhput:  : 2291.416913163056 byte per second
+flow 1:  goodput:  : 1433.5104208748082 byte per second
+flow 1:  avg_rtt:   204.40093994140625 millisecond
+
+
+
+flow from  128.208.4.212  port: 53028 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 2:  throuhput:  : 762.4805045158157 byte per second
+flow 2:  goodput:  : 413.25279252383905 byte per second
+flow 2:  avg_rtt:   201.35302734375 millisecond
+
+
+
+flow from  128.208.4.212  port: 53029 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 3:  throuhput:  : 1912.1921860089408 byte per second
+flow 3:  goodput:  : 1036.3789710430137 byte per second
+flow 3:  avg_rtt:   203.6771240234375 millisecond
+
+
+
+flow from  128.208.4.212  port: 53030 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 4:  throuhput:  : 1912.1664428169586 byte per second
+flow 4:  goodput:  : 1036.3650186259852 byte per second
+flow 4:  avg_rtt:   203.6783447265625 millisecond
+
+
+
+flow from  128.208.4.212  port: 53031 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 5:  throuhput:  : 1626.4971495289421 byte per second
+flow 5:  goodput:  : 1101.9101849197782 byte per second
+flow 5:  avg_rtt:   203.2039794921875 millisecond
+
+
+HTTP_SampleB.pcap
+
+number of packets:   36
+flow from  128.208.4.212  port: 56192 to 128.208.2.180  port: 80
+mss:  1460
+initial_congestion_window is:   4380
+flow 0:  throuhput:  : 5838.556612830622 byte per second
+flow 0:  goodput:  : 3943.073303655149 byte per second
+flow 0:  avg_rtt:   202.45643833705358 millisecond
+
+
+

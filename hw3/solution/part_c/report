@@ -1,0 +1,32 @@
+C1:
+convergence time:
+1211ms
+the way to calculate the convergence time:
+I start counting the time  when programs in all hosts start running and stops when h1 can find the shortest path to h2 (no more updates from other nodes).
+
+
+C2:
+convergence time 
+812 ms
+the way to calculate the convergence time:
+I start counting the time when i change the weight and stops when h1 can find the shortest path to h2  (no more updates from other nodes).
+
+
+
+
+
+After running the program, you can see the routing table.
+
+if there are three item in the record, that means two host are connected directly. If there are four items, then second item is the middle point.
+
+For example, in part_c1_routing_table.png, for r1, it has routing table:
+r1 r2 10
+r1 r3 6
+r1 r2 r4 6
+r1 r2 h2 8
+
+That means r1 an r2 are connected directly, with weight 10.
+For record 3, r1 can forward packet to r4 via r2. The weight of shortest path from r1 to r4 is 6.
+
+
+

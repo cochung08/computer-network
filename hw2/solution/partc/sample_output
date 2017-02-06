@@ -1,0 +1,88 @@
+(1)
+congestion window:
+
+
+the time when the ack comes back: 855.14404296875millsecond       congestion window size :11680
+the time when the ack comes back: 892.448974609375millsecond       congestion window size :13140
+the time when the ack comes back: 1104.214111328125millsecond       congestion window size :14600
+the time when the ack comes back: 1140.7041015625millsecond       congestion window size :16060
+the time when the ack comes back: 1196.125millsecond       congestion window size :17520
+the time when the ack comes back: 1400.14697265625millsecond       congestion window size :18980
+the time when the ack comes back: 1415.927978515625millsecond       congestion window size :20440
+the time when the ack comes back: 1464.484130859375millsecond       congestion window size :21900
+the time when the ack comes back: 1742.0810546875millsecond       congestion window size :23360
+the time when the ack comes back: 1742.421142578125millsecond       congestion window size :24820
+the time when the ack comes back: 1757.405029296875millsecond       congestion window size :26280
+the time when the ack comes back: 1797.299072265625millsecond       congestion window size :27740
+the time when the ack comes back: 1842.219970703125millsecond       congestion window size :29200
+the time when the ack comes back: 2158.1259765625millsecond       congestion window size :30660
+the time when the ack comes back: 2158.277099609375millsecond       congestion window size :32120
+the time when the ack comes back: 2161.086181640625millsecond       congestion window size :33580
+the time when the ack comes back: 2208.384033203125millsecond       congestion window size :35040
+the time when the ack comes back: 2244.6611328125millsecond       congestion window size :36500
+the time when the ack comes back: 2589.64306640625millsecond       congestion window size :37960
+the time when the ack comes back: 2594.93212890625millsecond       congestion window size :39420
+the time when the ack comes back: 2595.3720703125millsecond       congestion window size :40880
+
+
+
+
+
+
+
+(2)
+
+
+The first 4 retransmission timeout values estimated at the HTTP server is as below.
+
+rtt number: 1 from packet 5 to packet 7
+rtt:_213.743896484375 millsecond
+srtt: 213.743896484375 millsecondrttvar: 106.8719482421875 millsecond
+rto: 1213.743896484375 millsecond
+
+
+rtt number: 2 from packet 6 to packet 8
+rtt:_213.652099609375 millsecond
+srtt: 213.732421875 millsecond
+rttvar: 80.17691040039062 millsecond
+rto: 1213.732421875 millsecond
+
+rtt number: 3 from packet 9 to packet 14
+rtt:_209.388916015625 millsecond
+srtt: 213.18948364257812 millsecond
+rttvar: 61.21855926513672 millsecond
+rto: 1213.1894836425781 millsecond
+
+rtt number: 4 from packet 10 to packet 15
+rtt:_208.801025390625 millsecond
+srtt: 212.64092636108398 millsecond
+rttvar: 47.01103401184082 millsecond
+rto: 1212.640926361084 millsecond
+
+
+first 4 retransmission timeout values estimated at the HTTP client is as below.
+
+rtt number: 1 from packet 4 to packet 5
+rtt:_0.421142578125 millsecond
+srtt: 0.421142578125 millisecond
+rttvar: 0.2105712890625 millisecond
+rto: 1000.421142578125 millisecond
+
+rtt number: 2 from packet 8 to packet 9
+rtt:_0.701904296875millsecond
+srtt: 0.45623779296875 millisecond
+rttvar: 0.228118896484375 millisecond
+rto: 1000.4562377929688 millisecond
+
+rtt number: 3 from packet 15 to packet 16
+
+rtt:_1.135986328125millsecond
+srtt: 0.5412063598632812 millisecond
+rttvar: 0.34102630615234375 millisecond
+rto: 1000.5412063598633 millisecond
+
+rtt number: 4 from packet 18 to packet 19
+rtt:_0.907958984375millsecond
+srtt: 0.5870504379272461 millisecond
+rttvar: 0.3474578857421875 millisecond
+rto: 1000.5870504379272 millisecond

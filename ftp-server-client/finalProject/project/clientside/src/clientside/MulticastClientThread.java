@@ -9,31 +9,28 @@ import java.util.Scanner;
 
 public class MulticastClientThread extends Thread {
 
-	Socket sock;
+  Socket sock;
 
-	MulticastClientThread(Socket sock) {
-		this.sock = sock;
-	}
+  MulticastClientThread(Socket sock) { this.sock = sock; }
 
-	public void run() {
-		try {
+  public void run() {
+    try {
 
-			// DataOutputStream out = new
-			// DataOutputStream(sock.getOutputStream());
-			// out.writeInt(2);
+      // DataOutputStream out = new
+      // DataOutputStream(sock.getOutputStream());
+      // out.writeInt(2);
 
-			// PrintWriter pout = new PrintWriter(sock.getOutputStream(), true);
-			Scanner Sinput = new Scanner(sock.getInputStream());
+      // PrintWriter pout = new PrintWriter(sock.getOutputStream(), true);
+      Scanner Sinput = new Scanner(sock.getInputStream());
 
-			while (true) {
-				String tmp = Sinput.nextLine();
-				System.out.println(tmp);
-			}
+      while (true) {
+        String tmp = Sinput.nextLine();
+        System.out.println(tmp);
+      }
 
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-
+    } catch (Exception e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+  }
 }

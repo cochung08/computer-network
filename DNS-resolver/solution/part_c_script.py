@@ -7,11 +7,8 @@ import datetime
 from time import gmtime, strftime
 
 
-
-
-
 #! /usr/bin/python
-
+ 
 
 import dns.query
 import dns.resolver

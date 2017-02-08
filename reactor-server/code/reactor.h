@@ -2,71 +2,62 @@
 #define REACTOR_REACTOR_H_
 
 #include <stdint.h>
-#include <unistd.h>
 #include <sys/epoll.h>
+#include <unistd.h>
 
 #include "singleton.h"
 #include "timeheap.h"
 
-namespace reactor
-{
-    typedef unsigned int event_t;
-    enum
-    {
-        kReadEvent    = 0x01,
-        kWriteEvent   = 0x02,
-        kErrorEvent   = 0x04,
-        kEventMask    = 0xff
-    };
+namespace reactor {
+typedef unsigned int event_t;
+enum {
+  kReadEvent = 0x01,
+  kWriteEvent = 0x02,
+  kErrorEvent = 0x04,
+  kEventMask = 0xff
+};
 
-    typedef int handle_t;
+typedef int handle_t;
 
-    class EventHandler
-    {
-    public:
+class EventHandler {
+public:
+  virtual handle_t GetHandle() const = 0;
 
-        virtual handle_t GetHandle() const = 0;
+  virtual void HandleRead() {}
 
-        virtual void HandleRead() {}
+  virtual void HandleWrite() {}
 
-        virtual void HandleWrite() {}
+  virtual void HandleError() {}
 
-        virtual void HandleError() {}
+protected:
+  EventHandler() {}
 
-    protected:
+  virtual ~EventHandler() {}
+};
 
-        EventHandler() {}
+class ReactorImplementation;
 
-        virtual ~EventHandler() {}
-    };
+class Reactor {
+public:
+  Reactor();
 
-    class ReactorImplementation;
+  ~Reactor();
 
-    class Reactor
-    {
-    public:
+  int RegisterHandler(EventHandler *handler, event_t evt);
 
-        Reactor();
+  int RemoveHandler(EventHandler *handler);
 
-        ~Reactor();
+  void HandleEvents();
 
-        int RegisterHandler(EventHandler * handler, event_t evt);
+  int RegisterTimerTask(heap_timer *timerevent);
 
-        int RemoveHandler(EventHandler * handler);
+private:
+  Reactor(const Reactor &);
+  Reactor &operator=(const Reactor &);
 
-        void HandleEvents();
-
-        int RegisterTimerTask(heap_timer* timerevent);
-    private:
-
-        Reactor(const Reactor &);
-        Reactor & operator=(const Reactor &);
-
-    private:
-
-        ReactorImplementation * m_reactor_impl;
-    };
+private:
+  ReactorImplementation *m_reactor_impl;
+};
 
 } // namespace reactor
 #endif // REACTOR_REACTOR_H_
-

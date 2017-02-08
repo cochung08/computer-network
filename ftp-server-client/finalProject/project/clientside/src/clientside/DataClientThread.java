@@ -18,170 +18,163 @@ import java.util.Scanner;
 
 public class DataClientThread extends Thread {
 
-	Socket sock;
+  Socket sock;
 
-	public DataClientThread(Socket sock) throws IOException {
+  public DataClientThread(Socket sock) throws IOException { this.sock = sock; }
 
-		this.sock = sock;
+  public void run()
 
-	}
+  {
 
-	public void run()
+    String filePath = "dataFile";
 
-	{
+    while (true) {
 
-		String filePath = "dataFile";
+      System.out.println("please enter you command");
+      Scanner reader = new Scanner(System.in);
 
-		while (true) {
+      String request = reader.nextLine();
+      try {
+        if (request.equals("ls")) {
+          list(sock, request);
+        }
 
-			System.out.println("please enter you command");
-			Scanner reader = new Scanner(System.in);
+        else if (request.startsWith("upload")) {
+          upload(sock, filePath, request);
 
-			String request = reader.nextLine();
-			try {
-				if (request.equals("ls")) {
-					list(sock, request);
-				}
+        }
 
-				else if (request.startsWith("upload")) {
-					upload(sock, filePath, request);
+        else if (request.startsWith("download")) {
 
-				}
+          download(sock, filePath, request);
 
-				else if (request.startsWith("download")) {
+        } else if (request.startsWith("delete")) {
+          delete(sock, request);
+        }
 
-					download(sock, filePath, request);
+      } catch (Exception e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+      }
+    }
+  }
 
-				}else if(request.startsWith("delete"))
-				{
-					delete(sock,request);
-				}
+  private static void delete(Socket sock, String request)
+      throws IOException, ClassNotFoundException {
 
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}
+    DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
 
-	private static void delete(Socket sock, String request) throws IOException,
-			ClassNotFoundException {
+    outD.writeUTF(request);
+  }
 
-		DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
+  private static void list(Socket sock, String request)
+      throws IOException, ClassNotFoundException {
+    DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
 
-		outD.writeUTF(request);
-	}
+    outD.writeUTF(request);
+    ObjectInputStream ois = new ObjectInputStream(sock.getInputStream());
 
-	private static void list(Socket sock, String request) throws IOException,
-			ClassNotFoundException {
-		DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
+    File[] fList = (File[])ois.readObject();
+    for (File file : fList) {
+      System.out.println(file.getName());
+    }
+  }
 
-		outD.writeUTF(request);
-		ObjectInputStream ois = new ObjectInputStream(sock.getInputStream());
+  private static void download(Socket sock, String filePath, String request)
+      throws IOException, FileNotFoundException {
+    String Dfname = request.substring(9);
 
-		File[] fList = (File[]) ois.readObject();
-		for (File file : fList) {
-			System.out.println(file.getName());
-		}
-	}
+    Dfname = getName(Dfname);
 
-	private static void download(Socket sock, String filePath, String request)
-			throws IOException, FileNotFoundException {
-		String Dfname = request.substring(9);
+    DataInputStream inD = new DataInputStream(sock.getInputStream());
 
-		Dfname = getName(Dfname);
+    DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
 
-		DataInputStream inD = new DataInputStream(sock.getInputStream());
+    outD.writeUTF(request);
 
-		DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
+    String fullpath = filePath + "\\" + Dfname;
 
-		outD.writeUTF(request);
+    FileOutputStream fos = new FileOutputStream(fullpath);
 
-		String fullpath = filePath + "\\" + Dfname;
+    int size = inD.readInt();
+    System.out.println("Server says " + size);
 
-		FileOutputStream fos = new FileOutputStream(fullpath);
+    byte[] buffer = new byte[size];
+    inD.readFully(buffer, 0, size);
+    fos.write(buffer, 0, size);
+    fos.close();
 
-		int size = inD.readInt();
-		System.out.println("Server says " + size);
+    // byte[] buffer = new byte[1024];
+    // while (size > 0 && (bytesRead = in.read(buffer, 0, (int)
+    // Math.min(buffer.length, size))) != -1) {
+    // fos.write(buffer, 0, bytesRead);
+    // size -= bytesRead;
+    // }
 
-		byte[] buffer = new byte[size];
-		inD.readFully(buffer, 0, size);
-		fos.write(buffer, 0, size);
-		fos.close();
+    // byte[] buffer = new byte[size];
+    // while (size > 0 && (bytesRead = in.read(buffer, 0,size)) != -1) {
+    // System.out.println(bytesRead);
+    // fos.write(buffer, 0, bytesRead);
+    // size -= bytesRead;
+    // }
+  }
 
-		// byte[] buffer = new byte[1024];
-		// while (size > 0 && (bytesRead = in.read(buffer, 0, (int)
-		// Math.min(buffer.length, size))) != -1) {
-		// fos.write(buffer, 0, bytesRead);
-		// size -= bytesRead;
-		// }
+  private static void upload(Socket sock, String filePath, String request)
+      throws FileNotFoundException, IOException {
+    String Dfname = request.substring(7);
+    String filename = filePath + "\\" + Dfname;
 
-		// byte[] buffer = new byte[size];
-		// while (size > 0 && (bytesRead = in.read(buffer, 0,size)) != -1) {
-		// System.out.println(bytesRead);
-		// fos.write(buffer, 0, bytesRead);
-		// size -= bytesRead;
-		// }
-	}
+    File myFile = new File(filename);
+    byte[] mybytearray = new byte[(int)myFile.length()];
 
-	private static void upload(Socket sock, String filePath, String request)
-			throws FileNotFoundException, IOException {
-		String Dfname = request.substring(7);
-		String filename = filePath + "\\" + Dfname;
+    FileInputStream fis = new FileInputStream(myFile);
+    BufferedInputStream bis = new BufferedInputStream(fis);
 
-		File myFile = new File(filename);
-		byte[] mybytearray = new byte[(int) myFile.length()];
+    DataInputStream dis = new DataInputStream(bis);
+    dis.readFully(mybytearray, 0, mybytearray.length);
 
-		FileInputStream fis = new FileInputStream(myFile);
-		BufferedInputStream bis = new BufferedInputStream(fis);
+    DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
 
-		DataInputStream dis = new DataInputStream(bis);
-		dis.readFully(mybytearray, 0, mybytearray.length);
+    outD.writeUTF(request);
+    outD.writeInt(mybytearray.length);
+    outD.writeUTF(Dfname);
+    outD.write(mybytearray, 0, mybytearray.length);
+    outD.flush();
+  }
 
-		DataOutputStream outD = new DataOutputStream(sock.getOutputStream());
+  private static String getName(String Dfname) {
+    String filePath = "dataFile";
 
-		outD.writeUTF(request);
-		outD.writeInt(mybytearray.length);
-		outD.writeUTF(Dfname);
-		outD.write(mybytearray, 0, mybytearray.length);
-		outD.flush();
-	}
+    File directory = new File(filePath);
+    File[] fList = directory.listFiles();
 
-	private static String getName(String Dfname) {
-		String filePath = "dataFile";
+    int count = 2;
+    for (int i = 0; i < fList.length; i++) {
+      if (fList[i].getName().equals(Dfname)) {
 
-		File directory = new File(filePath);
-		File[] fList = directory.listFiles();
+        int l = Dfname.indexOf('[');
+        if (l < 0) {
+          int m = Dfname.indexOf('.');
+          String left = Dfname.substring(0, m);
+          String right = Dfname.substring(m + 1);
 
-		int count = 2;
-		for (int i = 0; i < fList.length; i++) {
-			if (fList[i].getName().equals(Dfname)) {
+          Dfname = left + "[1]." + right;
+        }
 
-				int l = Dfname.indexOf('[');
-				if (l < 0) {
-					int m = Dfname.indexOf('.');
-					String left = Dfname.substring(0, m);
-					String right = Dfname.substring(m + 1);
+        else {
 
-					Dfname = left + "[1]." + right;
-				}
+          int r = Dfname.indexOf(']');
 
-				else {
+          String left = Dfname.substring(0, l + 1);
+          String right = Dfname.substring(r);
 
-					int r = Dfname.indexOf(']');
-
-					String left = Dfname.substring(0, l + 1);
-					String right = Dfname.substring(r);
-
-					Dfname = left + count + right;
-					count++;
-					i = 0;
-					fList = directory.listFiles();
-
-				}
-			}
-		}
-		return Dfname;
-	}
-
+          Dfname = left + count + right;
+          count++;
+          i = 0;
+          fList = directory.listFiles();
+        }
+      }
+    }
+    return Dfname;
+  }
 }

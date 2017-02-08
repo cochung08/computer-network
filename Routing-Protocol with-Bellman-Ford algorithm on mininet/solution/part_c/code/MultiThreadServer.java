@@ -20,7 +20,7 @@ class Host {
 	String ipAddr;
 	int port;
 }
-
+ 
 public class MultiThreadServer implements Runnable {
 	Socket csocket;
 

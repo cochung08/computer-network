@@ -7,34 +7,32 @@ import java.net.Socket;
 
 public class main {
 
-	static public MulticastUtil mUtil = new MulticastUtil();
+  static public MulticastUtil mUtil = new MulticastUtil();
 
-	public static void main(String[] args) throws IOException {
-		// int portNumber = Integer.parseInt(args[0]);
-		// String filename = args[1];
+  public static void main(String[] args) throws IOException {
+    // int portNumber = Integer.parseInt(args[0]);
+    // String filename = args[1];
 
-		String address = "127.0.0.1";
-		int dataPortNumber = 10003;
-		int multicastPortNumber = 10004;
+    String address = "127.0.0.1";
+    int dataPortNumber = 10003;
+    int multicastPortNumber = 10004;
 
-		ServerSocket dataservsock = new ServerSocket(dataPortNumber);
-		ServerSocket multicastservsock = new ServerSocket(multicastPortNumber);
+    ServerSocket dataservsock = new ServerSocket(dataPortNumber);
+    ServerSocket multicastservsock = new ServerSocket(multicastPortNumber);
 
-		while (true) {
+    while (true) {
 
-			Socket sockData = dataservsock.accept();
-			Socket sockMutil = multicastservsock.accept();
+      Socket sockData = dataservsock.accept();
+      Socket sockMutil = multicastservsock.accept();
 
-			PrintWriter pout = new PrintWriter(sockMutil.getOutputStream(),
-					true);
-			mUtil.addStream(pout);
+      PrintWriter pout = new PrintWriter(sockMutil.getOutputStream(), true);
+      mUtil.addStream(pout);
 
-			Thread t = new DataServerThread(sockData, mUtil);
+      Thread t = new DataServerThread(sockData, mUtil);
 
-			// Thread m = new MulticastServerThread(sockMutil, mUtil);
-			t.start();
-			// m.start();
-		}
-	}
-
+      // Thread m = new MulticastServerThread(sockMutil, mUtil);
+      t.start();
+      // m.start();
+    }
+  }
 }

@@ -1,5 +1,0 @@
-convergence time:
-
-The way i calcutate the convergence time:
-
-Right after starting the ./start.py program, I count the time until h1 is able to ping h2. The time is around 2600ms.
